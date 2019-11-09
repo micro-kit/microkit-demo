@@ -37,7 +37,7 @@ func (f *Foreground) Login(ctx context.Context, req *pb.LoginRequest) (*pb.Login
 	userJs, _ := json.Marshal(user)
 	err = cache.GetClient().Set(key, string(userJs), 0).Err()
 	if err != nil {
-		err = microerror.GetMicroError(10102, err)
+		err = microerror.GetMicroError(10000, err)
 		return nil, err
 	}
 
@@ -50,5 +50,6 @@ func (f *Foreground) Login(ctx context.Context, req *pb.LoginRequest) (*pb.Login
 		Password: user.Password,
 		Token:    user.Token,
 	}
+
 	return reply, nil
 }
