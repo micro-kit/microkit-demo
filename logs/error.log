@@ -1,0 +1,151 @@
+{"level":"panic","ts":1573200019400.9138,"caller":"etcdcli/etcdcli.go:27","msg":"Create etcd3 client error","err":"dial tcp 127.0.0.1:2379: connect: connection refused"}
+{"level":"panic","ts":1573200141081.25,"caller":"cache/cache.go:42","msg":"Get redis configuration error","err":"The redis configuration configured to be empty."}
+{"level":"panic","ts":1573200143828.117,"caller":"cache/cache.go:42","msg":"Get redis configuration error","err":"The redis configuration configured to be empty."}
+{"level":"info","ts":1573200747106.521,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573200747107.0022,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573200747108.722,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573200747114.842,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573200747116.234,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573200747119.1848,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573200951037.918,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573200951038.418,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573200951039.6228,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573200951043.358,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573200951045.286,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573200951048.8372,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573200970253.3372,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573200970253.836,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573200970255.137,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573200970259.221,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573200970261.086,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573200970264.634,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201006564.559,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573201006565.0781,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573201006566.967,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573201006571.4539,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573201006573.147,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573201006577.201,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201034276.852,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573201034277.092,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573201034278.466,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573201034282.433,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573201034283.669,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573201034287.451,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201093088.657,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573201093088.8162,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573201093089.952,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573201093092.9321,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573201093094.8008,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573201093097.464,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201496950.063,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573201496950.7058,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573201496951.98,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573201496956.128,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573201496957.475,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573201496960.345,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201577772.163,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573201577772.703,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573201577774.366,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573201577779.1821,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573201577780.9978,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573201577784.474,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201577786.118,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573201577786.175,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573201577786.3281,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573201577786.407,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573201577787.968,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573201673147.852,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573201673148.061,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573201673149.4138,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573201673153.449,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573201673155.194,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573201673158.443,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201673159.787,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573201673159.833,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573201673159.917,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573201673159.9548,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573201673161.2202,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573201864916.8152,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573201864917.439,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573201864920.301,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573201864924.99,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573201864926.627,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573201864930.781,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573201864932.063,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573201864932.095,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573201864932.168,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573201864932.202,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573201864933.74,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573201864933.8308,"caller":"server/server.go:135","msg":"启动服务","service_name":"default","id":"1","advertise":"127.0.0.1:28080"}
+{"level":"info","ts":1573202009629.343,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573202009629.574,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573202009631.073,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573202009634.541,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573202009635.715,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573202009638.493,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573202009640.587,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573202009640.632,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573202009640.7349,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573202009640.7732,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202009642.1938,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202009642.2441,"caller":"server/server.go:140","msg":"启动服务","service_name":"default","id":"1","advertise":"127.0.0.1:28080"}
+{"level":"info","ts":1573202036527.5562,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573202036527.8872,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573202036529.793,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573202036533.85,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573202036534.8962,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573202036537.875,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573202036540.214,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573202036540.267,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573202036540.348,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573202036540.39,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202036541.9148,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202036542.016,"caller":"server/server.go:142","msg":"启动服务","service_name":"default","id":"1","advertise":"127.0.0.1:28080"}
+{"level":"info","ts":1573202050609.458,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573202050609.977,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573202050611.285,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573202050615.28,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573202050616.577,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573202050619.9,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573202050622.014,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573202050622.066,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573202050622.146,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573202050622.2021,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202050623.653,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202050623.7551,"caller":"server/server.go:142","msg":"启动服务","service_name":"default","id":"1","advertise":"127.0.0.1:28080"}
+{"level":"info","ts":1573202064900.982,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573202064901.8071,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573202064903.306,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573202064907.8,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573202064908.93,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573202064912.107,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573202064914.01,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573202064914.055,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573202064914.129,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573202064914.167,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202064915.361,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202064915.452,"caller":"server/server.go:143","msg":"启动服务","service_name":"default","id":"1","advertise":"127.0.0.1:28080"}
+{"level":"info","ts":1573202081141.945,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573202081142.4949,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573202081143.88,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573202081147.856,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573202081149.515,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573202081152.723,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573202081153.8792,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573202081153.942,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573202081154.013,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573202081154.0469,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202081155.832,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202081155.9402,"caller":"server/server.go:143","msg":"启动服务","service_name":"default","id":"1","advertise":"127.0.0.1:28080"}
+{"level":"info","ts":1573202094330.47,"caller":"cache/cache.go:52","msg":"Start connecting to redis database"}
+{"level":"info","ts":1573202094331.075,"caller":"cache/cache.go:80","msg":"Connect to redis database successfully"}
+{"level":"info","ts":1573202094332.4941,"caller":"db/db.go:47","msg":"Start connecting to database master node"}
+{"level":"info","ts":1573202094336.621,"caller":"db/db.go:53","msg":"Connect database master node successfully"}
+{"level":"info","ts":1573202094338.4,"caller":"db/db.go:61","msg":"Start connecting to database slave node"}
+{"level":"info","ts":1573202094342.115,"caller":"db/db.go:67","msg":"Connect database slave node successfully"}
+{"level":"info","ts":1573202094343.573,"caller":"logger/grpclog.go:27","msg":"parsed scheme: \"\""}
+{"level":"info","ts":1573202094343.6318,"caller":"logger/grpclog.go:27","msg":"scheme \"\" not registered, fallback to default scheme"}
+{"level":"info","ts":1573202094343.719,"caller":"logger/grpclog.go:27","msg":"ccResolverWrapper: sending update to cc: {[{127.0.0.1:2379 0  <nil>}] <nil>}"}
+{"level":"info","ts":1573202094343.766,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202094345.3618,"caller":"logger/grpclog.go:27","msg":"balancerWrapper: got update addr from Notify: [{127.0.0.1:2379 <nil>}]"}
+{"level":"info","ts":1573202094345.4731,"caller":"server/server.go:142","msg":"启动服务","service_name":"default","id":"1","advertise":"127.0.0.1:28080"}
