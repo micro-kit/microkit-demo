@@ -5,15 +5,15 @@ import (
 	"log"
 	"os"
 	"os/signal"
-	"strings"
 	"syscall"
 
 	"github.com/micro-kit/microkit-demo/program"
 )
 
 var (
-	VERSION  string // 程序版本
-	GIT_HASH string // git hash
+	VERSION      string // 程序版本
+	GIT_HASH     string // git hash
+	COMPILE_DATE string // 编译时间
 )
 
 func main() {
@@ -24,7 +24,9 @@ func main() {
 	// 判断是否是-v参数如果是，则输出版本信息
 	if len(os.Args) > 1 {
 		if os.Args[1] == "-v" || os.Args[1] == "version" {
-			fmt.Printf(`%s version %s/%s`, strings.TrimLeft(os.Args[0], "./"), VERSION, GIT_HASH)
+			fmt.Printf(`version: %s
+githash: %s
+compile date: %s`, VERSION, GIT_HASH, COMPILE_DATE)
 			return
 		}
 	}

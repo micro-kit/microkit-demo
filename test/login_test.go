@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro-kit/microkit-demo/account"
-	"github.com/micro-kit/microkit-demo/internal/pb"
+	"github.com/micro-kit/microkit-client/client/account"
+	"github.com/micro-kit/microkit-client/proto/accountpb"
 )
 
 var (
-	cl pb.AccountClient
+	cl accountpb.AccountClient
 )
 
 func TestMain(m *testing.M) {
@@ -30,7 +30,7 @@ func TestMain(m *testing.M) {
 func TestGRPCLogin(t *testing.T) {
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
-	u, err := cl.Login(ctx, &pb.LoginRequest{
+	u, err := cl.Login(ctx, &accountpb.LoginRequest{
 		Username: "admin",
 		Password: "111111",
 	})
@@ -52,7 +52,7 @@ func TestMultipleGRPCLogin(t *testing.T) {
 			defer wg.Done()
 			for i := 0; i < 100; i++ {
 				ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
-				u, err := cl.Login(ctx, &pb.LoginRequest{
+				u, err := cl.Login(ctx, &accountpb.LoginRequest{
 					Username: "admin",
 					Password: "111111",
 				})

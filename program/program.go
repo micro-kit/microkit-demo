@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/micro-kit/micro-common/logger"
-	"github.com/micro-kit/microkit-demo/internal/pb"
+	"github.com/micro-kit/microkit-client/proto/accountpb"
 	"github.com/micro-kit/microkit-demo/program/services"
 	"github.com/micro-kit/microkit/server"
 	"go.uber.org/zap"
@@ -33,7 +33,7 @@ func New() *Program {
 // Run 运行程序
 func (p *Program) Run() {
 	p.srv.Serve(func(grpcServer *grpc.Server) {
-		pb.RegisterAccountServer(grpcServer, new(services.Foreground))
+		accountpb.RegisterAccountServer(grpcServer, new(services.Foreground))
 	})
 	return
 }

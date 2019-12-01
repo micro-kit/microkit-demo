@@ -1,9 +1,13 @@
 BINARY_NAME=microkit-demo
-VERSION="-X main.VERSION=1.0.0 -X main.GIT_HASH=aa -s" #"-X main.VERSION=1.0.0 -X main.GIT_HASH=`git rev-parse HEAD` -s"
 SERVICE_NAME=account
+COMPILE_TIME = $(shell date +"%Y%M%d%H%M%S")
+VERSION="-X main.VERSION=`cat 'version'` -X main.COMPILE_DATE="$(COMPILE_TIME)" -X main.GIT_HASH=`git rev-parse HEAD` -s" # "-X main.VERSION=1.0.0 -X main.GIT_HASH=aa -s" #
+
+BRANCH=`git symbolic-ref --short -q HEAD`
+REGISTRY=
 
 default:
-	@echo 'Usage of make: [ build | linux_build | windows_build | clean ]'
+	@echo 'Usage of make: [ build | linux_build | windows_build ｜ run | docker_build | clean ]'
 
 build: 
 	@go build -ldflags ${VERSION} -o ./bin/${BINARY_NAME} ./
@@ -14,10 +18,13 @@ linux_build:
 windows_build: 
 	@CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build ${VERSION} -o ./bin/${BINARY_NAME}.exe ./
 
+docker_build: linux_build
+	@docker build -t $(REGISTRY)/service/$(BINARY_NAME):$(BRANCH) .
+
 run: build
 	@SVC_NAME=${SERVICE_NAME} ./bin/${BINARY_NAME}
 
 clean: 
 	@rm -f ./bin/${BINARY_NAME}*
 
-.PHONY: default build linux_build windows_build clean
+.PHONY: default build linux_build windows_build run docker_build clean

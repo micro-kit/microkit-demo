@@ -8,7 +8,7 @@ import (
 	"github.com/micro-kit/micro-common/cache"
 	"github.com/micro-kit/micro-common/crypto"
 	"github.com/micro-kit/micro-common/microerror"
-	"github.com/micro-kit/microkit-demo/internal/pb"
+	"github.com/micro-kit/microkit-client/proto/accountpb"
 	"github.com/micro-kit/microkit-demo/program/models"
 )
 
@@ -20,7 +20,7 @@ type Foreground struct {
 }
 
 // Login 登录接口
-func (f *Foreground) Login(ctx context.Context, req *pb.LoginRequest) (*pb.LoginReply, error) {
+func (f *Foreground) Login(ctx context.Context, req *accountpb.LoginRequest) (*accountpb.LoginReply, error) {
 	username := req.Username
 	password := req.Password
 	user := new(models.User)
@@ -44,7 +44,7 @@ func (f *Foreground) Login(ctx context.Context, req *pb.LoginRequest) (*pb.Login
 	user.Token = token
 	user.Password = ""
 
-	reply := &pb.LoginReply{
+	reply := &accountpb.LoginReply{
 		Username: user.Username,
 		Nickname: user.Nickname,
 		Password: user.Password,
