@@ -32,8 +32,12 @@ func New() *Program {
 
 // Run 运行程序
 func (p *Program) Run() {
+	// 前端服务对象
+	foreground := services.NewForeground()
+	// log.Println(os.Getenv("DEBUG1"))
+	// 启动服务
 	p.srv.Serve(func(grpcServer *grpc.Server) {
-		accountpb.RegisterAccountServer(grpcServer, new(services.Foreground))
+		accountpb.RegisterAccountServer(grpcServer, foreground)
 	})
 	return
 }
